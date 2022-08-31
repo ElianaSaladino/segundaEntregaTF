@@ -17,6 +17,7 @@
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 .header a img{
     width: 50vw;
@@ -104,7 +105,9 @@
     justify-content: center;
 }
 .ancho-carousel{
-    width: 100vw;
+    width: 80vw;
+
+    
 }
 .nuestrosproductos{
     color: #e99f9f;
@@ -119,6 +122,8 @@
     justify-content: center;
 }
 
+
+
 /*footer*/
 
 .footer{
@@ -131,24 +136,21 @@
     grid-template-rows: repeat(4, 25vh);
     background-color: #cf8c8c;
     color: hwb(0 100% 0%);
-    font-size: 30px;
+    font-size: 22px;
     width: 100vw;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .seguinos{
     grid-area: seguinos;
     width: 100vw;
-    padding: 10px;
-    
     text-align: center;
 }
 .redesDeFooter{
     grid-area: redesDeFooter;
     width: 100vw;
-    
-    
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -157,15 +159,11 @@
 .encontranos{
     grid-area: encontranos;
     width: 100vw;
-    padding: 15px;
-    
     text-align: center;
 }
 .ubicacion{
     grid-area: ubicacion;
     width: 100vw;
-    padding: 15px;
-    
     text-align: center;
 }
 .ubicacion iframe{
@@ -383,13 +381,11 @@
             "encontranos encontranos encontranos encontranos"
             "ubicacion ubicacion ubicacion ubicacion";
         grid-template-rows: repeat(4, 20vh);
-        
-      
-        font-size: 25px;
+        font-size: 22px;
         width: 100vw;
         align-items: center;
         justify-content: space-evenly;
-        padding: 15px;
+        
     }
 }
 
@@ -404,7 +400,7 @@
     }
     .header a img{
         width: 30vw;
-        height: 110px;
+        height: 125px;
     }
     .titulo {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
